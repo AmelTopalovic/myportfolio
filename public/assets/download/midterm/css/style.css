@@ -1,0 +1,22 @@
+#clr1 {
+  color: #feca00;
+  text-shadow: 0.5px 0.5px white;
+}
+#clr2 {
+  color: #242424;
+  text-shadow: 0.5px 0.5px white;
+}
+#clr3 {
+  color: #009801;
+  text-shadow: 0.5px 0.5px white;
+}
+
+#raceinfobanner {
+  background-image: url(/images/LDRresults.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
