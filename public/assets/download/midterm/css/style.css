@@ -12,7 +12,7 @@
 }
 
 #raceinfobanner {
-  background-image: url(/images/LDRresults.jpg);
+  background-image: url(/images/ldr-results.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -20,3 +20,38 @@
   position: relative;
 }
 
+.portfolio-box .portfolio-box-caption {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	opacity: 0;
+	color: rgb(254, 202, 0);
+	background: rgba(105, 215, 238, 0.5);
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.portfolio-box {
+	position: relative;
+	display: block;
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+.portfolio-box a {
+	font: inherit;
+	-webkit-transition: .3s all ease;
+	-moz-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+	text-decoration: none;
+	color: inherit;
+}
+.portfolio-box:hover .portfolio-box-caption {
+	opacity: 1;
+}
+#portfolio {
+	background-color:lightblue;
+}

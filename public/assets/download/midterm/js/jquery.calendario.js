@@ -22,27 +22,24 @@
 
 	// the options
 	$.Calendario.defaults = {
-		/*
-		you can also pass:
-		month : initialize calendar with this month (1-12). Default is today.
-		year : initialize calendar with this year. Default is today.
-		caldata : initial data/content for the calendar.
-		caldata format:
+		
+		month : 6,
+		year : 2022,
 		{
 			'MM-DD-YYYY' : 'HTML Content',
 			'MM-DD-YYYY' : 'HTML Content',
 			'MM-DD-YYYY' : 'HTML Content'
-			...
 		}
-		*/
-		weeks: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-		weekabbrs: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
-		months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-		monthabbrs: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+		caldata : null,
+		
+		weeks : ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+		weekabbrs : ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+		months : ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+		monthabbrs : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
 		// choose between values in options.weeks or options.weekabbrs
-		displayWeekAbbr: false,
+		displayWeekAbbr: true,
 		// choose between values in options.months or options.monthabbrs
-		displayMonthAbbr: false,
+		displayMonthAbbr: true,
 		// left most day in the calendar
 		// 0 - Sunday, 1 - Monday, ... , 6 - Saturday
 		startIn: 1,
@@ -59,8 +56,8 @@
 			this.options = $.extend(true, {}, $.Calendario.defaults, options);
 
 			this.today = new Date();
-			this.month = (isNaN(this.options.month) || this.options.month == null) ? this.today.getMonth() : this.options.month - 1;
-			this.year = (isNaN(this.options.year) || this.options.year == null) ? this.today.getFullYear() : this.options.year;
+			this.month = (isNaN(this.options.month) || this.options.month == 6) ? this.today.getMonth() : this.options.month - 1;
+			this.year = (isNaN(this.options.year) || this.options.year == 2022) ? this.today.getFullYear() : this.options.year;
 			this.caldata = this.options.caldata || {};
 			this._generateTemplate();
 			this._initEvents();

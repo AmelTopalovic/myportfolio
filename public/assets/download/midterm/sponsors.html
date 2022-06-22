@@ -7,7 +7,7 @@
 
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="/assets/download/midterm/images/logo/new-ldr-logo.jpg" type="image/x-icon">
+    <link rel="icon" href="images/logo/new-ldr-logo.jpg" type="image/x-icon">
 
     <title>Law Day Run</title>
 
@@ -37,7 +37,7 @@
             </button>
 
             <a href="index.html" class="navbar-brand mx-auto mx-lg-0">
-                <img src="/images/logo/NewLDRLogo.jpg" alt="Law Day Run Logo" style="height: 38px">
+                <img src="images/logo/new-ldr-logo.jpg" alt="Law Day Run Logo" style="height: 38px">
                 <span class="brand-text"><span id="clr1">Law</span><span id="clr2">Day</span><span
                         id="clr3">Run</span><br> Belleville, IL</span>
             </a>
@@ -46,36 +46,67 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link inactive" href="#section_1">Home</a>
+                        <a class="nav-link inactive" href="index.html" active>Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="race-info.html" id="dropdownMenuClickableOutside"
+                            data-bs-toggle="dropdown" data-bs-auto-close="inside">
+                            Race Info &amp; Maps
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownClickableOutside">
+                            <li><a class="dropdown-item inactive" href="race-info.html" target="_blank">Race Info</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item inactive" href="https://lawday5k.itsyourrace.com/register/"
+                                    alt="LawDayRun Registration" target="_blank">Register</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item inactive" href="downloads/lawday5k2022.pdf"
+                                    download>Law Day Run 2022 Results</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item inactive" href="race-info.html#photos"
+                                    target="_blank">Photos</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li class="dropdown-submenu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Maps &gt;</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="nav-link" href="race-info.html#maps">Packet Pickup &amp; Registration</a>
+                                    </li>
+                                    <li><a class="nav-link text-danger" href="downloads/maps/fivek_route.pdf"
+                                            target="_blank">Download 5k Run/Walk</a></li>
+                                    <li><a class="nav-link text-danger" href="downloads/maps/youth-route.pdf"
+                                            target="_blank">Download Youth Run/Walk</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll inactive" href="#section_2">Race Info</a>
+                        <a class="nav-link click-scroll inactive" href="contact.html" target="_blank"
+                            alt="contact page">Contact</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll inactive" href="#section_3">Contact</a>
+                        <a class="nav-link click-scroll active" href="sponsors.html" target="_blank">Sponsors</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll active" href="#section_4">Sponsors</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll inactive" href="#section_5">Volunteer</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll inactive" href="#section_6">Venue</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll inactive" href="#section_7">Contact</a>
+                        <a class="nav-link click-scroll"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSc9QzlC6Da8dndPw-7fjisn2IcpWtWUM8dtik5OiLKPw21tsA/viewform"
+                            target="_blank" alt="Volunteer Registration form">Volunteer</a>
                     </li>
                 </ul>
-                <div>
 
-                </div>
+            </div>
+        </div>
     </nav>
 
     <main>
@@ -87,128 +118,49 @@
                         <div class="speakers-text-info">
                             <h2 class="mb-4">Our <u class="text-info">Organizers</u></h2>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut dolore</p>
+                            <p>Thanks to all of our wonderful organizers for their continued hard work and
+                                determination. Without all of you, this event would not be possible!</p>
                         </div>
                     </div>
-
-                    <div class="col-lg-6 col-12">
-                        <div class="speakers-thumb">
-                            <img src="images/avatar/happy-asian-man-standing-with-arms-crossed-grey-wall.jpg"
-                                class="img-fluid speakers-image" alt="">
-
-                            <small class="speakers-featured-text">Featured</small>
-
-                            <div class="speakers-info">
-
-                                <h5 class="speakers-title mb-0">Logan Wilson</h5>
-
-                                <p class="speakers-text mb-0">CEO / Founder</p>
-
-                                <ul class="social-icon">
-                                    <li><a href="#" class="social-icon-link bi-facebook"></a></li>
-
-                                    <li><a href="#" class="social-icon-link bi-instagram"></a></li>
-
-                                    <li><a href="#" class="social-icon-link bi-google"></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-12 col-12">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-6 col-12">
+                    <div class="col-lg- col-12">
+                        <div class="row align-items-end">
+                            <div class="col-lg-4 col-md-6 col-12">
                                 <div class="speakers-thumb speakers-thumb-small">
-                                    <img src="images/avatar/portrait-good-looking-brunette-young-asian-woman.jpg"
-                                        class="img-fluid speakers-image" alt="">
+                                    <img src="images/sponsors/brc.png" class="img-fluid speakers-image" alt="">
 
                                     <div class="speakers-info">
-                                        <h5 class="speakers-title mb-0">Natalie</h5>
+                                        <h5 class="speakers-title mb-0">Belleville Running Club</h5>
 
-                                        <p class="speakers-text mb-0">Event Planner</p>
-
-                                        <ul class="social-icon">
-                                            <li><a href="#" class="social-icon-link bi-facebook"></a></li>
-
-                                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
-                                        </ul>
+                                        <p class="speakers-text mb-0">Organizer</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-lg-3 col-md-6 col-12">
+                            <div class="col-lg-4 col-md-6 col-12">
                                 <div class="speakers-thumb speakers-thumb-small">
-                                    <img src="images/avatar/senior-man-white-sweater-eyeglasses.jpg"
-                                        class="img-fluid speakers-image" alt="">
+                                    <img src="images/sponsors/st-clair-county-bar.png" class="img-fluid speakers-image"
+                                        alt="">
 
                                     <div class="speakers-info">
-                                        <h5 class="speakers-title mb-0">Thomas</h5>
+                                        <h5 class="speakers-title mb-0">The St. Clair County Bar Association</h5>
 
-                                        <p class="speakers-text mb-0">Startup Coach</p>
-
-                                        <ul class="social-icon">
-                                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
-
-                                            <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
-                                        </ul>
+                                        <p class="speakers-text mb-0">Organizer</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-lg-3 col-md-6 col-12">
-                                <div class="speakers-thumb speakers-thumb-small">
-                                    <img src="images/avatar/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction.jpg"
-                                        class="img-fluid speakers-image" alt="">
-
-                                    <div class="speakers-info">
-                                        <h5 class="speakers-title mb-0">Isabella</h5>
-
-                                        <p class="speakers-text mb-0">Event Manager</p>
-
-                                        <ul class="social-icon">
-                                            <li><a href="#" class="social-icon-link bi-facebook"></a></li>
-
-                                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
-
-                                            <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-12">
-                                <div class="speakers-thumb speakers-thumb-small">
-                                    <img src="images/avatar/indoor-shot-beautiful-happy-african-american-woman-smiling-cheerfully-keeping-her-arms-folded-relaxing-indoors-after-morning-lectures-university.jpg"
-                                        class="img-fluid speakers-image" alt="">
-
-                                    <div class="speakers-info">
-                                        <h5 class="speakers-title mb-0">Samantha</h5>
-
-                                        <p class="speakers-text mb-0">Top Level Speaker</p>
-
-                                        <ul class="social-icon">
-                                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
-
-                                            <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
                 </div>
             </div>
         </section>
-
-
         <section class="schedule section-padding" id="section_4">
             <div class="container">
                 <div class="row">
 
                     <div class="col-lg-12 col-12">
-                        <h2 class="mb-5 text-center">Next <u class="text-info">Schedules</u></h2>
+                        <h2 class="mb-5 text-center">Our outstanding <u class="text-info">Sponsors</u></h2>
 
                         <nav>
                             <div class="nav nav-tabs align-items-baseline" id="nav-tab" role="tablist">
@@ -216,8 +168,8 @@
                                     data-bs-target="#nav-DayOne" type="button" role="tab" aria-controls="nav-DayOne"
                                     aria-selected="true">
                                     <h3>
-                                        <span>Day One</span>
-                                        <small>July 12, 2022</small>
+                                        <span>Gold</span>
+
                                     </h3>
                                 </button>
 
@@ -225,8 +177,8 @@
                                     data-bs-target="#nav-DayTwo" type="button" role="tab" aria-controls="nav-DayTwo"
                                     aria-selected="false">
                                     <h3>
-                                        <span>Day Two</span>
-                                        <small>July 14, 2022</small>
+                                        <span>Silver</span>
+
                                     </h3>
                                 </button>
 
@@ -234,19 +186,11 @@
                                     data-bs-target="#nav-DayThree" type="button" role="tab" aria-controls="nav-DayThree"
                                     aria-selected="false">
                                     <h3>
-                                        <span>Day Three</span>
-                                        <small>July 16, 2022</small>
+                                        <span>Supporting</span>
                                     </h3>
                                 </button>
 
-                                <button class="nav-link" id="nav-DayFour-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-DayFour" type="button" role="tab" aria-controls="nav-DayFour"
-                                    aria-selected="false">
-                                    <h3>
-                                        <span>Day Four</span>
-                                        <small>July 18, 2022</small>
-                                    </h3>
-                                </button>
+
                             </div>
                         </nav>
 
@@ -255,114 +199,188 @@
                                 aria-labelledby="nav-DayOne-tab">
                                 <div class="row border-bottom pb-5 mb-5">
                                     <div class="col-lg-4 col-12">
-                                        <img src="images/schedule/fabian-friedrich-JDUVM9_VaZE-unsplash.jpg"
-                                            class="schedule-image img-fluid" alt="">
+                                        <img src="images/sponsors/gold/nelsonnewlogo19.PNG"
+                                            class="schedule-image img-fluid" alt="Nelson Logo">
                                     </div>
 
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
 
-                                        <h4 class="mb-2">Startup Development Ideas</h4>
+                                        <h4 class="mb-2">Nelson &amp; Nelson Law Firm</h4>
 
-                                        <p>You are free to download any HTML CSS template from TemplateMo website. You
-                                            can use any template for business purposes. You are not allowed to
-                                            redistribute the downloadable ZIP file on any other template website. Thank
-                                            you.</p>
-
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/happy-asian-man-standing-with-arms-crossed-grey-wall.jpg"
-                                                    class="img-fluid avatar-image" alt="">
-
-                                                <div class="ms-3">
-                                                    Logan Wilson
-                                                    <p class="speakers-text mb-0">CEO / Founder</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                9:00 - 9:45 AM
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                Conference Hall 3
-                                            </span>
-                                        </div>
+                                        <p>Nelson &amp; Nelson handles workers compensation &amp; personal injury cases
+                                            in Belleville, IL as well as St. Louis. Learn more about the Nelson &amp;
+                                            Nelson Law Firm here.
+                                        </p>
                                     </div>
                                 </div>
 
                                 <div class="row border-bottom pb-5 mb-5">
                                     <div class="col-lg-4 col-12">
-                                        <img src="images/schedule/clayton-cardinalli-JMoFpdqL3XM-unsplash.jpg"
-                                            class="schedule-image img-fluid" alt="">
+                                        <img src="images/sponsors/gold/stifel.jpg" class="schedule-image img-fluid"
+                                            alt="Stifel Logo">
                                     </div>
 
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">Introduction to Online Businesses</h4>
+                                        <h4 class="mb-2">Stifel Investment Services</h4>
 
-                                        <p>Quisque mollis, ante non semper ultricies, nulla sapien sollicitudin augue,
-                                            id scelerisque nunc turpis nec urna. Class aptent taciti sociosqu ad litora.
+                                        <p>Stifel is a full service brokerage and investment banking firm. The Company
+                                            provides securities brokerage, investment banking, trading, investment
+                                            advisory, and related financial services.
                                         </p>
-
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/portrait-good-looking-brunette-young-asian-woman.jpg"
-                                                    class="img-fluid avatar-image" alt="">
-
-                                                <div class="ms-3">
-                                                    Natalie
-                                                    <p class="speakers-text mb-0">Event Planner</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                10:00 - 10:45 AM
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                100-D Room
-                                            </span>
-                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="row">
+                                <div class="row border-bottom pb-5 mb-5">
                                     <div class="col-lg-4 col-12">
-                                        <img src="images/schedule/business-woman-making-presentation-office.jpg"
+                                        <img src="images/sponsors/gold/mmr.jpg" class="schedule-image img-fluid"
+                                            alt="MMR Logo">
+                                    </div>
+
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">Mathis Marifian &amp; Richter LTD</h4>
+
+                                        <p>Since 1984, MMR has served businesses and individuals seeking diverse legal
+                                            services throughout Southern Illinois and St. Louis, Missouri.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row border-bottom pb-5 mb-5">
+                                    <div class="col-lg-4 col-12">
+                                        <img src="images/sponsors/gold/keefe.png" class="schedule-image img-fluid"
+                                            alt="Keefe Logo">
+                                    </div>
+
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">Keefe, Keefe &amp; Unsell PC</h4>
+
+                                        <p>We recognize that people considering wrongful death actions often want
+                                            answers and a sense of closure as well as compensation to deal with funeral
+                                            costs, medical expenses, lost family income and other life-altering
+                                            consequences.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row border-bottom pb-5 mb-5">
+                                    <div class="col-lg-4 col-12">
+                                        <img src="images/sponsors/gold/picture.PNG" class="schedule-image img-fluid"
+                                            alt="">
+                                    </div>
+
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">Cook, Bartholomew, Shevlin &amp; Cook, LLP</h4>
+
+                                        <p>Call 618-310-3050 for a free consultation with our experienced Belleville,
+                                            Illinois, personal injury attorneys at Cook, Bartholomew, Shevlin &amp;
+                                            Cook,
+                                            LLP .</p>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="row border-bottom pb-5 mb-5">
+                                    <div class="col-lg-4 col-12">
+                                        <img src="images/sponsors/gold/becker.PNG" class="schedule-image img-fluid"
+                                            alt="">
+                                    </div>
+
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">Becker, Hoerner, &amp; Ysursa, P.C.</h4>
+
+                                        <p>Becker, Hoerner, &amp; Ysursa, P.C., represents clients in Belleville, St.
+                                            Clair
+                                            County and Madison County, Illinois.</p>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="row border-bottom pb-5 mb-5">
+                                    <div class="col-lg-4 col-12">
+                                        <img src="images/sponsors/gold/pour-law-day-run.png"
                                             class="schedule-image img-fluid" alt="">
                                     </div>
 
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">Bootstrapping Startup</h4>
+                                        <h4 class="mb-2">Pour @322 CoffeeHouse</h4>
 
-                                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                                            inceptos himenaeos. Ut consequat purus posuere tortor efficitur, sit amet
-                                            dignissim libero aliquam.</p>
+                                        <p>We serve freshly-ground Kaldi’s coffee roasted within 24 hours of it reaching
+                                            your
+                                            cup!
+                                            You will absolutely taste the difference.</p>
 
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/senior-man-white-sweater-eyeglasses.jpg"
-                                                    class="img-fluid avatar-image" alt="">
 
-                                                <div class="ms-3">
-                                                    Thomas
-                                                    <p class="speakers-text mb-0">Startup Coach</p>
-                                                </div>
-                                            </div>
+                                    </div>
+                                </div>
 
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                11:00 - 11:45 AM
-                                            </span>
+                                <div class="row border-bottom pb-5 mb-5">
+                                    <div class="col-lg-4 col-12">
+                                        <img src="images/sponsors/gold/2017greyeagle.jpg"
+                                            class="schedule-image img-fluid" alt="">
+                                    </div>
 
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                100-B Room
-                                            </span>
-                                        </div>
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">Grey Eagle</h4>
+
+                                        <p>Grey Eagle is the largest Anheuser-Busch Beer Distributor in Missouri and one
+                                            of
+                                            the
+                                            largest
+                                            in the Midwest.</p>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="row border-bottom pb-5 mb-5">
+                                    <div class="col-lg-4 col-12">
+                                        <img src="images/sponsors/gold/baker.jpg" class="schedule-image img-fluid"
+                                            alt="">
+                                    </div>
+
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">Baker, Sterchi, Cowden &amp; Rice LLC</h4>
+
+                                        <p>From single matters to complex mass torts, we defend civil litigation and try
+                                            cases
+                                            for
+                                            our
+                                            clients across the Midwest and around the nation.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row border-bottom pb-5 mb-5">
+                                    <div class="col-lg-4 col-12">
+                                        <img src="images/sponsors/gold/bigrushmarketing.png"
+                                            class="schedule-image img-fluid" alt="">
+                                    </div>
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">Big Rush Marketing</h4>
+
+                                        <p>Big Rush Marketing is a full service marketing company certified on the most
+                                            effective
+                                            platforms available. We offer graphic design, web design, digital and
+                                            traditional
+                                            advertising, social media and everything in between.</p>
+                                    </div>
+                                </div>
+                                <div class="row border-bottom pb-5 mb-5">
+                                    <div class="col-lg-4 col-12">
+                                        <img src="images/sponsors/gold/thegorilawfirm.PNG"
+                                            class="schedule-image img-fluid" alt="">
+                                    </div>
+
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">The Gori Law Firm</h4>
+
+                                        <p>The Gori Law Firm are nationwide asbestos, defective drug and personal injury
+                                            attorneys
+                                            in
+                                            Edwardsville, Illinois.</p>
+
                                     </div>
                                 </div>
                             </div>
@@ -370,76 +388,66 @@
                             <div class="tab-pane fade" id="nav-DayTwo" role="tabpanel" aria-labelledby="nav-DayTwo-tab">
                                 <div class="row border-bottom pb-5 mb-5">
                                     <div class="col-lg-4 col-12">
-                                        <img src="images/schedule/people-smiling-while-conference-room.jpg"
-                                            class="schedule-image img-fluid" alt="">
+                                        <img src="images/sponsors/silver/mgmlaw.png"
+                                            class="schedule-image img-fluid" alt="MGM Logo">
                                     </div>
 
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
 
-                                        <h4 class="mb-2">Building a famous company</h4>
+                                        <h4 class="mb-2">MG+M </h4>
 
-                                        <p>Quisque mollis, ante non semper ultricies, nulla sapien sollicitudin augue,
-                                            id scelerisque nunc turpis nec urna. Class aptent taciti sociosqu ad litora
-                                            torquent per conubia.</p>
-
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction.jpg"
-                                                    class="img-fluid avatar-image" alt="">
-
-                                                <div class="ms-3">
-                                                    Isabella
-                                                    <p class="speakers-text mb-0">Event Manager</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                9:00 - 9:45 AM
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                Conference Hall 2
-                                            </span>
-                                        </div>
+                                        <p>The MG+M Plus Factor provides extra value for clients—and is a reason
+                                            multiple Fortune
+                                            500 companies and iconic business brands choose our firm to handle their
+                                            most critical,
+                                            high-risk litigation. Combining a unified team approach with national
+                                            resources,
+                                            creative trial tactics and an unwavering focus on optimal results, we
+                                            achieve outcomes
+                                            that help businesses thrive.
+                                        </p>
                                     </div>
                                 </div>
 
-                                <div class="row">
+                                <div class="row border-bottom pb-5 mb-5">
                                     <div class="col-lg-4 col-12">
-                                        <img src="images/schedule/jason-goodman-bzqU01v-G54-unsplash.jpg"
-                                            class="schedule-image img-fluid" alt="">
+                                        <img src="images/sponsors/silver/ann.png" class="schedule-image img-fluid"
+                                            alt="">
                                     </div>
 
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">Dev Ops life in corporate</h4>
+                                        <h4 class="mb-2">M. Ann Hatch</h4>
 
-                                        <p>Quisque mollis, ante non semper ultricies, nulla sapien sollicitudin augue,
-                                            id scelerisque nunc turpis nec urna. Class aptent taciti sociosqu ad litora
-                                            torquent per conubia nostra.</p>
+                                        <p>Ann Hatch is an AV "Peer Review Rated" attorney who concentrates her practice
+                                            in civil
+                                            litigation defense, focusing on products liability, personal injury defense,
+                                            premises
+                                            liability, asbestos and toxic tort defense.</p>
 
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/indoor-shot-beautiful-happy-african-american-woman-smiling-cheerfully-keeping-her-arms-folded-relaxing-indoors-after-morning-lectures-university.jpg"
-                                                    class="img-fluid avatar-image" alt="">
 
-                                                <div class="ms-3">
-                                                    Samantha
-                                                    <p class="speakers-text mb-0">Top Level Speaker</p>
-                                                </div>
-                                            </div>
+                                    </div>
+                                </div>
 
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                10:00 - 10:45 AM
-                                            </span>
+                                <div class="row border-bottom pb-5 mb-5">
+                                    <div class="col-lg-4 col-12">
+                                        <img src="images/sponsors/silver/athletico.png" class="schedule-image img-fluid"
+                                            alt="">
+                                    </div>
 
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                100-A Room
-                                            </span>
-                                        </div>
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">Athletico Physical Therapy</h4>
+
+                                        <p>Athletico Physical Therapy provides the highest quality orthopedic
+                                            rehabilitation
+                                            services to communities, employers and athletes. Our services include
+                                            physical and
+                                            occupational/hand therapy, workers’ compensation, women’s health therapy,
+                                            concussion
+                                            management and athletic training. To schedule a free assessment, visit
+                                            www.athletico.com
+                                        </p>
+
+
                                     </div>
                                 </div>
                             </div>
@@ -448,323 +456,178 @@
                                 aria-labelledby="nav-DayThree-tab">
                                 <div class="row border-bottom pb-5 mb-5">
                                     <div class="col-lg-4 col-12">
-                                        <img src="images/schedule/people-smiling-while-conference-room.jpg"
-                                            class="schedule-image img-fluid" alt="">
+                                        <img src="images/sponsors/supporting/bennies.jpeg"
+                                            class="schedule-image img-fluid" alt="Bennies Logo">
                                     </div>
 
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
 
-                                        <h4 class="mb-2">Maintaining a successful business</h4>
+                                        <h4 class="mb-2">Bennie's Pizza</h4>
 
-                                        <p>Quisque mollis, ante non semper ultricies, nulla sapien sollicitudin augue,
-                                            id scelerisque nunc turpis nec urna. Class aptent taciti sociosqu.</p>
+                                        <p>Hungry for pizza but don’t want a whole pie? Check out this new Belleville
+                                            restaurant
+                                            located at 124 E Main St, Belleville, IL 62220.</p>
 
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction.jpg"
-                                                    class="img-fluid avatar-image" alt="">
-
-                                                <div class="ms-3">
-                                                    Isabella
-                                                    <p class="speakers-text mb-0">Event Manager</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                9:00 - 9:45 AM
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                Conference Hall 1
-                                            </span>
-                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="row">
+                                <div class="row border-bottom pb-5 mb-5">
                                     <div class="col-lg-4 col-12">
-                                        <img src="images/schedule/jason-goodman-bzqU01v-G54-unsplash.jpg"
-                                            class="schedule-image img-fluid" alt="">
+                                        <img src="images/sponsors/supporting/helper.PNG"
+                                            class="schedule-image img-fluid" alt="Helper's Logo">
                                     </div>
 
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">Working Life in Corporate Environment</h4>
 
-                                        <p>Quisque mollis, ante non semper ultricies, nulla sapien sollicitudin augue,
-                                            id scelerisque nunc turpis nec urna.</p>
+                                        <h4 class="mb-2">HelperBroom</h4>
 
-                                        <div class="d-flex align-items-center mt-4">
-                                            <div class="avatar-group d-flex">
-                                                <img src="images/avatar/indoor-shot-beautiful-happy-african-american-woman-smiling-cheerfully-keeping-her-arms-folded-relaxing-indoors-after-morning-lectures-university.jpg"
-                                                    class="img-fluid avatar-image" alt="">
+                                        <p>The law firm of HeplerBroom, located in St. Louis, MO, provides quality
+                                            representation for its business clients and is one of the most experienced &
+                                            distinguished law firms in the Midwest.</p>
 
-                                                <div class="ms-3">
-                                                    Samantha
-                                                    <p class="speakers-text mb-0">Top Level Speaker</p>
-                                                </div>
-                                            </div>
-
-                                            <span class="mx-3 mx-lg-5">
-                                                <i class="bi-clock me-2"></i>
-                                                10:00 - 10:45 AM
-                                            </span>
-
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                100-C Room
-                                            </span>
-                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="tab-pane fade" id="nav-DayFour" role="tabpanel"
-                                aria-labelledby="nav-DayFour-tab">
-                                <div class="row">
+                                <div class="row border-bottom pb-5 mb-5">
                                     <div class="col-lg-4 col-12">
-                                        <img src="images/schedule/jeshoots-com-TWRCH-GaKr4-unsplash.jpg"
-                                            class="schedule-image img-fluid" alt="">
+                                        <img src="images/sponsors/supporting/thompsoncoburn.jpg"
+                                            class="schedule-image img-fluid" alt="Thompson Logo">
                                     </div>
 
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">After Party at the fullest</h4>
 
-                                        <p>There is a plenty of great HTML CSS templates available at TemplateMo.com
-                                            website for your businesses. You can download, edit and use any template for
-                                            any purpose. Please let us know <a rel="nofollow"
-                                                href="https://templatemo.com/contact" target="_parent"><u>your feedback
-                                                    via Email</u></a>. Thank you.</p>
+                                        <h4 class="mb-2">Thompson Coburn LLP</h4>
 
-                                        <div class="d-flex align-items-center mt-4">
+                                        <p>Thompson Coburn LLP provides practical and economical solutions to clients'
+                                            business demands and legal challenges across more than 50 areas of law.
 
-                                            <span>
-                                                <i class="bi-clock me-2"></i>
-                                                8:00 - 9:00 AM
-                                            </span>
+                                        </p>
 
-                                            <span class="mx-1 mx-lg-5">
-                                                <i class="bi-layout-sidebar me-2"></i>
-                                                Conference Hall 2
-                                            </span>
-                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row border-bottom pb-5 mb-5">
+                                    <div class="col-lg-4 col-12">
+                                        <img src="images/sponsors/supporting/kelly.jpg" class="schedule-image img-fluid"
+                                            alt="Kelly Logo">
+                                    </div>
+
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+
+                                        <h4 class="mb-2">Kelley &amp; Kelley, LLC - Attorneys at Law
+                                        </h4>
+
+                                        <p>Kelley &amp; Kelley's experienced attorneys focus their practice on personal
+                                            injury, criminal defense and family law cases.
+
+
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="row border-bottom pb-5 mb-5">
+                                    <div class="col-lg-4 col-12">
+                                        <img src="images/sponsors/supporting/fgg.png" class="schedule-image img-fluid"
+                                            alt="Kelly Logo">
+                                    </div>
+
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+
+                                        <h4 class="mb-2">Flynn Guymon &amp; Garavalia
+
+                                        </h4>
+
+                                        <p>Flynn Guymon &amp; Garavalia is a top Belleville, Illinois law firm that is
+                                            proud to
+                                            serve St. Louis, MO, the St. Louis Metro East and surrounding communities,
+                                            including: St. Clair, Madison &amp; Monroe Counties.
+
+
+
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="row border-bottom pb-5 mb-5">
+                                    <div class="col-lg-4 col-12">
+                                        <img src="images/sponsors/supporting/katzman.png"
+                                            class="schedule-image img-fluid" alt="Katzman Logo">
+                                    </div>
+
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+
+                                        <h4 class="mb-2">Katzman &amp; Sugden, LCC
+
+
+                                        </h4>
+
+                                        <p>With more than 40 years of experience in St. Clair County, Madison County,
+                                            Monroe County, Randolph County, and the surrounding St. Louis Metro East
+                                            area, we at Katzman & Sugden, LLC, are dedicated to helping individuals and
+                                            families in Illinois and Missouri.
+
+
+
+
+
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="row border-bottom pb-5 mb-5">
+                                    <div class="col-lg-4 col-12">
+                                        <img src="images/sponsors/supporting/lashley.jpg"
+                                            class="schedule-image img-fluid" alt="Lashley Logo">
+                                    </div>
+
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+
+                                        <h4 class="mb-2">Lashley Animal Hospital
+
+
+
+                                        </h4>
+
+                                        <p>Our skilled, certified and trustworthy veterinarians and staff understand
+                                            that your pets are family, they are your babies.
+
+
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                                <div class="row border-bottom pb-5 mb-5">
+                                    <div class="col-lg-4 col-12">
+                                        <img src="images/sponsors/supporting/chathamandbaricevic.PNG"
+                                            class="schedule-image img-fluid" alt="Lashley Logo">
+                                    </div>
+
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+
+                                        <h4 class="mb-2">Chatham &amp; Baricevic
+
+
+
+
+                                        </h4>
+
+                                        <p>Chatham and Baricevic Law, premier attorneys in Belleville, IL. Some of our
+                                            specialties include personal injury, workers compensation &amp; medical
+                                            malpractice.
+
+
+
+
+                                        </p>
+
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="call-to-action section-padding">
-            <div class="container">
-                <div class="row align-items-center">
-
-                    <div class="col-lg-7 col-12">
-                        <h2 class="text-white mb-4">Become an <u class="text-info">event speaker?</u></h2>
-
-                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut dolore</p>
-                    </div>
-
-                    <div class="col-lg-3 col-12 ms-lg-auto mt-4 mt-lg-0">
-                        <a href="#section_5" class="custom-btn btn">Register Today</a>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="pricing section-padding" id="section_5">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-10 col-12 text-center mx-auto mb-5">
-                        <h2>Get Your <u class="text-info">Tickets</u></h2>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12 mb-5 mb-lg-0">
-                        <div class="pricing-thumb bg-white shadow-lg">
-                            <div class="pricing-title-wrap d-flex align-items-center">
-
-                                <h4 class="pricing-title text-white mb-0">Early Bird</h4>
-
-                                <h5 class="pricing-small-title text-white mb-0 ms-auto">$640</h5>
-                            </div>
-
-                            <div class="pricing-body">
-                                <p>
-                                    <i class="bi-cup me-2"></i> All-Day Coffee + Snacks
-                                </p>
-
-                                <p>
-                                    <i class="bi-controller me-2"></i> After Party
-                                </p>
-
-                                <p>
-                                    <i class="bi-chat-square me-2"></i> 24/7 Support
-                                </p>
-
-                                <div class="border-bottom pb-3 mb-4"></div>
-
-                                <p>Quick group meetings for multiple teams</p>
-
-                                <a class="custom-btn btn mt-3" href="#">Buy Tickets</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12 mb-5 mb-lg-0">
-                        <div class="pricing-thumb bg-white shadow-lg">
-                            <div class="pricing-title-wrap d-flex align-items-center">
-
-                                <h4 class="pricing-title text-white mb-0">Gold</h4>
-
-                                <h5 class="pricing-small-title text-white mb-0 ms-auto">$840</h5>
-                            </div>
-
-                            <div class="pricing-body">
-                                <p>
-                                    <i class="bi-cup me-2"></i> All-Day Coffee + Snacks
-                                </p>
-
-                                <p>
-                                    <i class="bi-boombox me-2"></i> Group Meetings + After Party
-                                </p>
-
-                                <p>
-                                    <i class="bi-chat-square me-2"></i> 24/7 Support + Instant Chats
-                                </p>
-
-                                <div class="border-bottom pb-3 mb-4"></div>
-
-                                <p>Quick group meetings for multiple teams</p>
-
-                                <a class="custom-btn btn mt-3" href="#">Buy Tickets</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="pricing-thumb bg-white shadow-lg">
-                            <div class="pricing-title-wrap d-flex align-items-center">
-
-                                <h4 class="pricing-title text-white mb-0">Platinum</h4>
-
-                                <h5 class="pricing-small-title text-white mb-0 ms-auto">$1,240</h5>
-                            </div>
-
-                            <div class="pricing-body">
-                                <p>
-                                    <i class="bi-cash me-2"></i> Cashback $200
-                                </p>
-
-                                <p>
-                                    <i class="bi-boombox me-2"></i> Private Meetings + After Party
-                                </p>
-
-                                <p>
-                                    <i class="bi-chat-square me-2"></i> 24/7 Support + Instant Chats
-                                </p>
-
-                                <div class="border-bottom pb-3 mb-4"></div>
-
-                                <p>group talks and private chats for multiple teams</p>
-
-                                <a class="custom-btn btn mt-3" href="#">Buy Tickets</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="venue section-padding" id="section_6">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-12 col-12">
-                        <h2 class="mb-5">Here you go <u class="text-info">Venue</u></h2>
-                    </div>
-
-                    <div class="col-lg-6 col-12">
-                        <iframe class="google-map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1511.091461689997!2d-73.9866630916883!3d40.758001294831736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855a96da09d%3A0x860bf5a5e1a00a68!2sTimes%20Square%2C%20New%20York%2C%20NY%2010036%2C%20USA!5e0!3m2!1sen!2ssg!4v1643035529098!5m2!1sen!2ssg"
-                            width="100%" height="371.59" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-
-                    <div class="col-lg-6 col-12 mt-5 mt-lg-0">
-                        <div class="venue-thumb bg-white shadow-lg">
-
-                            <div class="venue-info-title">
-                                <h2 class="text-white mb-0">Times Square</h2>
-                            </div>
-
-                            <div class="venue-info-body">
-                                <h4 class="d-flex">
-                                    <i class="bi-geo-alt me-2"></i>
-                                    <span>102 South. 7th Street, New York, NY 10036, USA</span>
-                                </h4>
-
-                                <h5 class="mt-4 mb-3">
-                                    <a href="mailto:hello@yourgmail.com">
-                                        <i class="bi-envelope me-2"></i>
-                                        hi@company.com
-                                    </a>
-                                </h5>
-
-                                <h5 class="mb-0">
-                                    <a href="tel: 305-240-9671">
-                                        <i class="bi-telephone me-2"></i>
-                                        010-020-0340
-                                    </a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="contact section-padding" id="section_7">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-8 col-12 mx-auto">
-                        <form class="custom-form contact-form bg-white shadow-lg" action="#" method="post" role="form">
-                            <h2>Please Say Hi</h2>
-
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-12">
-                                    <input type="text" name="name" id="name" class="form-control" placeholder="Name"
-                                        required="">
-                                </div>
-
-                                <div class="col-lg-4 col-md-4 col-12">
-                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*"
-                                        class="form-control" placeholder="Email" required="">
-                                </div>
-
-                                <div class="col-lg-4 col-md-4 col-12">
-                                    <input type="text" name="subject" id="subject" class="form-control"
-                                        placeholder="Subject">
-                                </div>
-
-                                <div class="col-12">
-                                    <textarea class="form-control" rows="5" id="message" name="message"
-                                        placeholder="Message"></textarea>
-
-                                    <button type="submit" class="form-control">Submit</button>
-                                </div>
-
-                            </div>
-                        </form>
                     </div>
 
                 </div>
@@ -772,6 +635,65 @@
         </section>
 
     </main>
+    <div class="bg3 well well__ins1">
+        <div class="container">
+            <div class="row">
+                <div class="grid_12">
+                    <h2 class="hdng__off5"><u class="text-info">Bonus Links</u>
+                    </h2>
+                    <ul class="marked-list">
+                        <li class="grid_6 index-list__clr2 maxheight1" data-index="01."
+                                style="height: 30px; list-style-type: none;">
+                                <div class="box_inner">
+                                    <h3>
+                                        <a href="http://lollaf.org/" target="_blank">Land of Lincoln Legal Assistance Foundation, Inc.</a>
+                                    </h3>
+                                </div>
+                            </li>
+                            <li class="grid_6 index-list__clr2 maxheight1" data-index="01."
+                            style="height: 30px; list-style-type: none;">
+                            <div class="box_inner">
+                                <h3>
+                                     <li class="grid_6 index-list__clr2 maxheight1" data-index="01."
+                                style="height: 30px; list-style-type: none;">
+                                <div class="box_inner">
+                                    <h3>
+                                        <a href="http://stclairbar.com/" target="_blank">St. Clair County Bar Association</a>
+                                    </h3>
+                                </div>
+                            </li>
+                                </h3>
+                            </div>
+                        </li>
+                        <li class="grid_6 index-list__clr2 maxheight1" data-index="01."
+                        style="height: 30px; list-style-type: none;">
+                        <div class="box_inner">
+                            <h3>
+                                <a href="https://www.belleville.net/" target="_blank">City of Belleville</a>
+                            </h3>
+                        </div>
+                    </li>
+                    <li class="grid_6 index-list__clr2 maxheight1" data-index="01."
+                    style="height: 30px; list-style-type: none;">
+                    <div class="box_inner">
+                        <h3>
+                            <a href="https://www.belleville.net/354/Parks-Recreation" target="_blank">Belleville Parks &amp; Recreation Department</a>
+                        </h3>
+                    </div>
+                </li>
+                <li class="grid_6 index-list__clr2 maxheight1" data-index="01."
+                style="height: 30px; list-style-type: none;">
+                <div class="box_inner">
+                    <h3>
+                        <a href="http://bellevillerunningclub.com/#" target="_blank">Belleville Running Club</a>
+                    </h3>
+                </div>
+            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -779,40 +701,20 @@
 
                 <div class="col-lg-12 col-12 border-bottom pb-5 mb-5">
                     <div class="d-flex">
-                        <a href="index.html" class="navbar-brand">
-                            <i class="bi-bullseye brand-logo"></i>
-                            <span class="brand-text">Leadership <br> Event</span>
+                        <a href="index.html" class="navbar-brand mx-auto mx-lg-0">
+                            <img src="images/logo/new-ldr-logo.jpg" alt="Law Day Run Logo" style="height: 38px">
+                            <span class="brand-text"><span id="clr1">Law</span><span id="clr2">Day</span><span
+                                    id="clr3">Run</span><br> Belleville, IL</span>
                         </a>
-
                         <ul class="social-icon ms-auto">
                             <li><a href="#" class="social-icon-link bi-facebook"></a></li>
-
-                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
-
-                            <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
-
-                            <li><a href="#" class="social-icon-link bi-youtube"></a></li>
                         </ul>
                     </div>
                 </div>
-
-                <div class="col-lg-7 col-12">
-                    <ul class="footer-menu d-flex flex-wrap">
-                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Our Story</a></li>
-
-                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Code of Conduct</a></li>
-
-                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Privacy and Terms</a></li>
-
-                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contact</a></li>
-                    </ul>
-                </div>
-
-
-                <div class="col-lg-5 col-12 ms-lg-auto">
+                <div class="col-lg-5 col-12">
                     <div class="copyright-text-wrap d-flex align-items-center">
-                        <p class="copyright-text ms-lg-auto me-4 mb-0">20th Annual St. Clair County Law Day Run
-                            <a href="#section_1" class="bi-arrow-up arrow-icon custom-link"></a>
+                        20th Annual St. Clair County Law Day Run
+                            <a href="#section_3" class="bi-arrow-up arrow-icon custom-link"></a>
                     </div>
                 </div>
 

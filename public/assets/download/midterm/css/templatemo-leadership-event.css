@@ -262,7 +262,7 @@ strong {
   background: transparent;
   border: 2px solid #feca00;
   color: var(--primary-color);
-  width: 200px;
+  width: 375px;
 }
 
 .custom-btn:hover,
@@ -524,10 +524,10 @@ strong {
 
 .date-text,
 .location-text {
-  border: 2px solid #019801;
+  border: 2px solid #feca00;
   color: var(--white-color);
   display: inline-block;
-  padding: 10px 20px;
+  padding: 5px;
 }
 
 .date-text {
@@ -578,7 +578,7 @@ strong {
   top: 0;
   left: 0;
   bottom: 0;
-  background: var(--primary-color);
+  background: #ffcb01;
   width: 5px;
   height: 100%;
   transition: all 1s;
@@ -586,10 +586,11 @@ strong {
 
 .speakers-image {
   width: 100%;
+  height: 325px;
 }
 
 .speakers-text-info {
-  padding: 100px;
+  padding: 50px;
 }
 
 .speakers-title,
