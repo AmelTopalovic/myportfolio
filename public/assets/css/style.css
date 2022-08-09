@@ -41,7 +41,7 @@ body{
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
 	color: #676a81;
-	background: #fff;
+	background: rgb(173, 133, 133);
     max-width:1920px;
     margin:0 auto;
 	overflow-x:hidden;
@@ -56,18 +56,18 @@ a,a:hover,a:active,a:focus {
 }
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
-	color:rgb(255, 17, 219);
+	color:rgb(110, 34, 99);
     font-size: 25px;
 	font-family: 'Poppins', sans-serif;
 }
 p {
 	margin: 0;
 	line-height:1.8;
-	color:rgb(255, 17, 219);
+	color:rgb(110, 34, 99);
 	font-size:14px;
 	font-family: 'Poppins', sans-serif;
 }
-img{border:none;max-width:100%; height:auto;}
+img{border:none;max-width:100%; height:auto; border-radius:5px;}
 ul{
 	padding: 0;
     margin: 0 auto;
@@ -243,7 +243,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: rgb(255, 17, 219);}
         4.  About
 --------------------------------------*/
 .about {padding: 50px 0 100px;
- background:rgb(18 26 62);
+ background:rgb(255, 255, 255);
  background-size:cover;
  background-position: center;}
 
@@ -277,7 +277,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: rgb(255, 17, 219);}
     position:  absolute;
     width: 100%;
     height:  auto;
-    background: rgba(31,44,108,.3);
+    background: rgba(255, 254, 254, 0.3);
     padding:20px
 }
 .single-about-img img {
@@ -327,7 +327,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: rgb(255, 17, 219);}
 --------------------------------------*/
 
 .education {
-    background:rgba(143, 149, 181, 0.65);
+    background:rgba(255, 255, 255, 0.65);
     padding-top:  50px;
 }
 .education-horizontal-timeline {
@@ -374,12 +374,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
 .section-heading h2 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
     padding-bottom: 50px;
     border-bottom: 1px solid #e5ebf2;
-    color: #1f2c6c;
+    color: #fc00d2;
     text-shadow: .5px .5px #1f2c6c;
 }
 .single-progress-txt {
@@ -602,10 +602,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     border:  1px solid #e5ebf2;
     background-size:cover;
     background-position: center;
-    background-color: #3c4258;
+    background: rgb(36, 28, 66);
 }
 
-.portfolio-content {padding-top: 100px;}
+.portfolio-content {padding-top: 100px; }
 
 /* ---- .item ---- */
 .isotope:after {
@@ -641,7 +641,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     position:absolute;
     height:100%;
     width:100%;
-    background:rgba(255, 17, 219,.2);
+    background:rgba(52, 51, 100, 0.1);
     display:flex;
     align-items:center;
     text-transform: uppercase;
