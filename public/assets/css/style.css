@@ -68,7 +68,7 @@ img {
 }
 
 #home{
-    background: linear-gradient(rgba(3, 63, 71, 0.3), rgba(3, 63, 71, 0.3)), url(assets/images/about/first-bg.png);
+    background: linear-gradient(rgba(3, 63, 71, 0.3), rgba(3, 63, 71, 0.3)), url(/assets/images/about/first-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
